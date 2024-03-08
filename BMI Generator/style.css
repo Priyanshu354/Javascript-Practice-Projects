@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.BMI-calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.heading{
+    margin: 20px;
+}
+
+.input-details{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.heightd{
+    display: flex;
+    flex-direction: column;
+}
+
+.weightd{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-details button{
+    height: 30px;
+} 
+
+.BMI-Guide{
+    line-height: 2rem;
+}
