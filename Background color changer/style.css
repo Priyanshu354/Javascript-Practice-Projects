@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Color-Change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 40px;
+}
+
+.button-div{
+    display: flex;
+    gap: 10px;
+}
+
+#box1{
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+#box2{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#box3{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#box4{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#box5{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 2px solid black;
+}
