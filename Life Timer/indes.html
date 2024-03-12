@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div id="intialText" class="container">
+            <h1>Kindly Enter Your Date Of birth</h1>
+        </div>
+
+        <div id="finalText" class="container newcont">
+            <h1>How Much life Journery Covered Till Now</h1>
+            <div class="time-container">
+                <div class="years-content">
+                    <h2 id="years"> 0</h2>
+                    <h3>Years</h3>
+                </div>
+
+                <div class="months-content">
+                    <h2 id="months"> 0</h2>
+                    <h3>Months</h3>
+                </div>
+
+                <div class="days-content">
+                    <h2 id="days"> 0</h2>
+                    <h3>Days</h3>
+                </div>
+
+                <div class="hours-content">
+                    <h2 id="hours"> 0</h2>
+                    <h3>Hours</h3>
+                </div>
+
+                <div class="minutes-content">
+                    <h2 id="minutes"> 0</h2>
+                    <h3>Minutes</h3>
+                </div>
+
+                <div class="seconds-content">
+                    <h2 id="seconds"> 0</h2>
+                    <h3>seconds</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="DOB">
+            <div> <i class="fa-solid fa-gear"   id="setting" ></i> </div>
+            <label for="Dob" id="dob"> Enter DOB Here :-</label>
+            <input type="date" id="dobinput">
+            <button id="subBtn"> Submit </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
