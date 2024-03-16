@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background-color: rgb(37, 33, 33);
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.marks {
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.math,
+.science,
+.English,
+.Hindi {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    color: #fff;
+    font-size: 16px;* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: #ffffff;
+    }
+    }
+    
+    label {
+        color: #fff;
+        font-size: 16px;
+    }
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+#subBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left: 45%;
+}
+
+.title h3{
+    position: relative;
+    top: 20px;
+    left: 240px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title h1{
+    position: relative;
+    left: 150px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+
+
+
